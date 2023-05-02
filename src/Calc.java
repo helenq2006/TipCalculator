@@ -1,13 +1,7 @@
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 
 public class Calc extends JFrame{
     private JTextArea billTextArea;
-    private JTextArea totalTextArea;
-    private JTextArea tipTextArea;
     private JTextArea percentTextArea;
     private JTextArea numPeopleTextArea;
     private JButton percentAdd;
@@ -20,6 +14,8 @@ public class Calc extends JFrame{
     private JLabel total;
     private JLabel bill;
     private JPanel mainPanel;
+    private JTextArea tipTextArea;
+    private JTextArea totalTextArea;
 
     public Calc() {
         createUIComponents();

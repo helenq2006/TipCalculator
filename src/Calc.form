@@ -28,22 +28,6 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="421e5" class="javax.swing.JTextArea" binding="tipTextArea">
-        <constraints>
-          <grid row="1" column="3" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="50"/>
-          </grid>
-        </constraints>
-        <properties/>
-      </component>
-      <component id="63e89" class="javax.swing.JTextArea" binding="totalTextArea">
-        <constraints>
-          <grid row="3" column="3" row-span="3" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="50"/>
-          </grid>
-        </constraints>
-        <properties/>
-      </component>
       <component id="7bfcf" class="javax.swing.JTextArea" binding="percentTextArea">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
@@ -125,6 +109,22 @@
         <properties>
           <text value="-"/>
         </properties>
+      </component>
+      <component id="750ef" class="javax.swing.JTextArea" binding="tipTextArea">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f48bd" class="javax.swing.JTextArea" binding="totalTextArea">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
       </component>
     </children>
   </grid>
