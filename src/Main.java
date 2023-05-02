@@ -1,3 +1,3 @@
 public class Main {
-    Calc w = new Calc();
+    TipCalculatorGUI w = new TipCalculatorGUI();
 }
