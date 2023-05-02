@@ -32,5 +32,6 @@ public class Calc extends JFrame{
         setLocation(450, 100);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
+
     }
 }
